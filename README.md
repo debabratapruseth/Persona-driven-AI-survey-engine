@@ -1,12 +1,12 @@
 
 
-🚀 Persona-Driven Survey Engine (AI-Powered Product Discovery)
+# Persona-Driven Survey Engine (AI-Powered Product Discovery)
 
 Build a synthetic focus group using large-scale persona data + LLMs to simulate user feedback and validate product ideas before real user testing.
 
 ⸻
 
-🧠 Problem
+## Problem
 
 Early-stage product teams struggle to answer:
 
@@ -22,7 +22,7 @@ Traditional methods (surveys, interviews, market research) are:
 
 ⸻
 
-💡 Solution
+## Solution
 
 This project builds a persona-driven survey pipeline:
 
@@ -30,7 +30,7 @@ Raw dataset → Filtered personas → Segmentation → Survey generation → Sim
 
 ⸻
 
-🏗️ Architecture
+## Architecture
 
                 ┌──────────────────────────┐
                 │ Persona Dataset (1M+)    │
@@ -66,7 +66,7 @@ Raw dataset → Filtered personas → Segmentation → Survey generation → Sim
 
 ⸻
 
-⚙️ Tech Stack
+## Tech Stack
 
 * Python (Colab / Jupyter)
 * Hugging Face Datasets – data ingestion
@@ -78,7 +78,7 @@ Raw dataset → Filtered personas → Segmentation → Survey generation → Sim
 
 ⸻
 
-📂 Dataset
+## Dataset
 
 * Nemotron Personas USA
 * ~1M synthetic personas
@@ -90,7 +90,7 @@ Raw dataset → Filtered personas → Segmentation → Survey generation → Sim
 
 ⸻
 
-🔁 Pipeline Overview
+## Pipeline Overview
 
 1. Data Preparation
 
@@ -199,7 +199,7 @@ Aggregate responses to extract:
 
 ⸻
 
-🎯 Example Use Case
+## Example Use Case
 
 Product tested:
 FlexiSave Kids Plan
@@ -217,7 +217,7 @@ Insights enabled:
 
 ⸻
 
-🧪 Key Design Decisions
+## Key Design Decisions
 
 * Heuristic filtering instead of strict labels
 * Small persona panel (10–12) instead of full dataset
@@ -226,7 +226,7 @@ Insights enabled:
 
 ⸻
 
-⚠️ Limitations
+## Limitations
 
 * Synthetic personas ≠ real users
 * Bias from dataset + prompt design
@@ -234,7 +234,7 @@ Insights enabled:
 
 ⸻
 
-🚀 Extensions
+## Extensions
 
 * Replace rule-based segmentation with clustering
 * Add embedding-based persona similarity
@@ -244,7 +244,7 @@ Insights enabled:
 
 ⸻
 
-🏁 Summary
+## Summary
 
 This system enables:
 
